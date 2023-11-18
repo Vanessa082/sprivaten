@@ -657,9 +657,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-}
-
-.team-1-div-container-col-md4-card-item {
   width: 80%;
 }
 
@@ -895,7 +892,9 @@ footer {
 
   .navbar-one-icon .dropdown-content {
     position: unset;
-    flex-direction: row;
+
+    /* flex-direction: row; */
+    
     width: fit-content;
     flex-flow: nowrap;
     gap: 10px;
