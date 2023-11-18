@@ -163,6 +163,13 @@ header .row .form h3 {
   color: var(--primary-textblue);
 }
 
+.footer-button form {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  border: 1px solid var(--primary-grey);
+}
+
 header .row .form form {
   width: fill (248px);
   height: hug (369px);
@@ -702,6 +709,17 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   gap: 47px;
 }
 
+.contact-1-div-col-md-6h button {
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: #ffa62b;
+  color: #fff;
+}
+
 .contact-container-card-content form button {
   background-color: var(--primary-yellow);
   color: #fff;
@@ -747,17 +765,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   line-height: 20px;
   letter-spacing: 0.2px;
   text-align: left;
-}
-
-.contact-1-div-col-md-6h button {
-  width: 100%;
-  margin: 0 auto;
-  height: 40px;
-  padding: 15px 40px;
-  border-radius: 5px;
-  gap: 10px;
-  background-color: #ffa62b;
-  color: #fff;
 }
 
 /*  section footer */
@@ -851,13 +858,6 @@ footer {
   flex-direction: column;
   gap: 10px;
   padding: 1rem 0;
-}
-
-.footer-button form {
-  display: flex;
-  width: 80%;
-  align-items: center;
-  border: 1px solid var(--primary-grey);
 }
 
 .footer-button form button {
