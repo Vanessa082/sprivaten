@@ -4,14 +4,13 @@
   --primary-darkgreen: #16697a;
   --primary-lightblue: #335bf5;
   --primary-pink: #e51f5a;
-  --primary-aquat: #21A6df;
+  --primary-aquat: #21a6df;
   --primary-red: #e42f08;
   --primary-aquas: #00a0c1;
   --primary-textblue: #252b42;
   --primary-grey: #bdbdbd;
   --primary-greywhite: #f9f9f9;
   --primary-blightblue: #d9edff;
-
 }
 
 * {
@@ -20,10 +19,9 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: Montserrat, sans-serif;
+  font-family: Roboto, sans-serif;
 }
-
 
 header {
   background-image: url("../images/background.png");
@@ -184,7 +182,7 @@ header .row .form form input {
 header .row .form form select {
   width: 248px;
   height: 50px;
-  padding: 11px, 20px, 11px, 18px;
+  padding: 11px 20px;
   border-radius: 5px;
   border: 1px solid var(--primary-grey);
   gap: 47px;
@@ -429,7 +427,7 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
 .testimonial-1-container-row-card-item {
   padding: 30px 35px;
   border-radius: 5px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   background: #fff;
 }
 
@@ -562,7 +560,7 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   line-height: 24px;
   letter-spacing: 0.1px;
   text-align: center;
-  color: #252B42;
+  color: #252b42;
 }
 
 .team-1-div-container-col-md4-card-item-card-content h6 {
@@ -778,7 +776,7 @@ footer {
 }
 
 .fa-facebook-square {
-  color: #335BF5;
+  color: #335bf5;
 }
 
 .fa-instagram {
@@ -919,7 +917,6 @@ footer {
 
   .dropdown-icon img {
     display: none;
-
   }
 
   header .row {
@@ -991,14 +988,12 @@ footer {
     line-height: 20px;
     letter-spacing: 0.2px;
     text-align: center;
-
   }
 
   main .feature6 .div .container2 {
     flex-direction: row;
     width: 80%;
   }
-
 
   /* main section feature11 */
 
@@ -1013,6 +1008,17 @@ footer {
     line-height: 57px;
     letter-spacing: 0.2px;
     text-align: center;
+  }
+
+  .team-1-div-container p {
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
+  .testimonial-1-container-row p {
+    width: 470px;
+    margin: 0 auto;
   }
 
   .feature11 .container3-row p {
@@ -1030,11 +1036,6 @@ footer {
   }
 
   /* main section testimonial */
-
-  .testimonial-1-container-row p {
-    width: 470px;
-    margin: 0 auto;
-  }
 
   .testimonial-1-container-row1 {
     flex-direction: row;
@@ -1056,13 +1057,6 @@ footer {
   .team-1-div-container {
     width: 100%;
     margin: 0 auto;
-  }
-
-
-  .team-1-div-container p {
-    width: 470px;
-    margin: 0 auto;
-    padding-top: 1rem;
   }
 
   .team-1-div-container-col-md4 {
@@ -1123,7 +1117,6 @@ footer {
     width: 100%;
   }
 
-
   .contact-1-div-col-md-6h {
     flex-direction: row;
     width: 80%;
@@ -1171,7 +1164,6 @@ footer {
     gap: 60px;
 
     /* align-items: baseline; */
-
   }
 
   .footer-div1 .com {
