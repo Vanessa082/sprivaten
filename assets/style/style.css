@@ -316,6 +316,14 @@ main .feature6 .div .container h2 {
   text-align: center;
 }
 
+.team-1-div-container p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
 .feature11 .container3-row p {
   width: 90%;
   margin: 0 auto;
@@ -325,14 +333,6 @@ main .feature6 .div .container h2 {
   letter-spacing: 0.2px;
   text-align: center;
   padding: 0 2rem;
-}
-
-.team-1-div-container p {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  text-align: center;
 }
 
 main .feature6 .div .container p {
@@ -389,6 +389,15 @@ main .feature6 .div .container2 .col-md-4 .flex-row img {
   line-height: 24px;
   letter-spacing: 0.1px;
   text-align: left;
+}
+
+.team-1-div-container-col-md4-card-item-card-content h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252b42;
 }
 
 main .feature6 .div .container2 .col-md-4 .flex-row h5 {
@@ -598,15 +607,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   gap: 5px;
   margin: 0 auto;
   padding: 1rem 0;
-}
-
-.team-1-div-container-col-md4-card-item-card-content h5 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  text-align: center;
-  color: #252b42;
 }
 
 .team-1-div-container-col-md4-card-item-card-content h6 {
