@@ -260,6 +260,14 @@ main .feature6 .div .container {
   gap: 10px;
 }
 
+.testimonial-1-container-row h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
 .feature11 .container3-row h2 {
   width: 70%;
   font-size: 30px;
@@ -273,6 +281,14 @@ main .feature6 .div .container {
 main .feature6 .div .container h2 {
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
+}
+
+.testimonial-1-container-row p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
   text-align: center;
 }
 
@@ -438,22 +454,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   width: 70%;
   margin: 0 auto;
   gap: 10px;
-}
-
-.testimonial-1-container-row h2 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 57px;
-  letter-spacing: 0.2px;
-  text-align: center;
-}
-
-.testimonial-1-container-row p {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  text-align: center;
 }
 
 .testimonial-1-container-row1 {
