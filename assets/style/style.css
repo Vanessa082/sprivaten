@@ -921,9 +921,7 @@ footer {
 
   header .row {
     flex-direction: row;
-    gap: 4rem;
     width: 1, 050px;
-    gap: 100px;
     margin: 0 auto;
     padding-top: 2rem;
   }
@@ -933,17 +931,17 @@ footer {
   }
 
   header .row .col-md-6 h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: 0.2px;
     text-align: left;
   }
 
   header .row .col-md-6 h4 {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 20px;
     letter-spacing: 0.2px;
     text-align: left;
   }
@@ -982,6 +980,16 @@ footer {
     width: 100%;
   }
 
+  .feature11 .container3-row p {
+    width: 470px;
+  }
+
+  .team-1-div-container p {
+    width: 470px;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
   main .feature6 .div .container p {
     font-size: 14px;
     font-weight: 500;
@@ -1010,19 +1018,9 @@ footer {
     text-align: center;
   }
 
-  .team-1-div-container p {
-    width: 470px;
-    margin: 0 auto;
-    padding-top: 1rem;
-  }
-
   .testimonial-1-container-row p {
     width: 470px;
     margin: 0 auto;
-  }
-
-  .feature11 .container3-row p {
-    width: 470px;
   }
 
   .team-1-div-container-col-md4-card-item img {
