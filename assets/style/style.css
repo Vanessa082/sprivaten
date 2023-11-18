@@ -297,6 +297,17 @@ main .feature6 .div .container2 .col-md-4 .card-content {
   background-color: #fff;
 }
 
+.footer-button-last h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
 main .feature6 .div .container2 .col-md-4 .card-content h6 {
   font-size: 14px;
   font-weight: 600;
@@ -394,7 +405,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   width: 70%;
   margin: 0 auto;
   gap: 10px;
-
 }
 
 .testimonial-1-container-row h2 {
@@ -489,7 +499,6 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
 .team-1 {
   background-color: var(--primary-blue);
   padding: 2rem 0;
-  /* width: 80%; */
 }
 
 .team-1-div {
@@ -813,7 +822,6 @@ footer {
   line-height: 24px;
   letter-spacing: 0.2px;
   text-align: left;
-
 }
 
 .footer-div1 ul span {
@@ -864,17 +872,6 @@ footer {
   padding: 25px 0px;
 }
 
-.footer-button-last h6 {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-}
-
 @media screen and (min-width: 765px) {
   header {
     display: flex;
@@ -900,7 +897,7 @@ footer {
     position: unset;
     flex-direction: row;
     width: fit-content;
-    flex-wrap: nowrap;
+    flex-flow: nowrap;
     gap: 10px;
     transform: none;
     background: none;
@@ -977,14 +974,19 @@ footer {
     width: 100%;
   }
 
-  .feature11 .container3-row p {
-    width: 470px;
-  }
-
   .team-1-div-container p {
     width: 470px;
     margin: 0 auto;
     padding-top: 1rem;
+  }
+
+  .feature11 .container3-row p {
+    width: 470px;
+  }
+
+  .testimonial-1-container-row p {
+    width: 470px;
+    margin: 0 auto;
   }
 
   main .feature6 .div .container p {
@@ -1013,11 +1015,6 @@ footer {
     line-height: 57px;
     letter-spacing: 0.2px;
     text-align: center;
-  }
-
-  .testimonial-1-container-row p {
-    width: 470px;
-    margin: 0 auto;
   }
 
   .team-1-div-container-col-md4-card-item img {
