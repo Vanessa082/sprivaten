@@ -20,11 +20,21 @@
 </head>
 
 <body>
+
+
   <header>
     <section class="navbar">
-      <div class="navbar-one">
-        <h1 class="logo">Sprivaten</h1>
-        <div class="navbar-one-icon">
+      <h1 class="logo">Sprivaten</h1>
+
+      <div class="navbar-one-icon">
+        <div class="dropdown-content">
+          <a href="#">Home</a>
+          <a href="#">Product</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="dropdown-icon">
           <span class="material-symbols-outlined">
             search
           </span>
@@ -32,24 +42,15 @@
             shopping_cart
           </span>
 
-          <div class="dropdown">
-            <button class="dropbtn">
-              <img src="assets/images/icn menu .icn-xs.svg" alt=""></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Home</a>
-              <a href="#">Product</a>
-              <a href="#">Pricing</a>
-              <a href="#">Contact</a>
-            </div>
-          </div>
+          <img src="assets/images/icn menu .icn-xs.svg" alt="">
         </div>
+      </div>
     </section>
 
     <section class="row">
       <div class="col-md-6">
-        <h2>We Take Care
-          of the Future</h2>
+        <h1>We Take Care
+          of the Future</h1>
         <h4>We know how large
           objects will act, but things
           on a small scale just do
@@ -173,13 +174,13 @@
         <div class="testimonial-1-container-row1">
           <div class="testimonial-1-container-row-card-item">
             <div class="testimonial-1-container-row-card-item-content">
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
               <h6>Slate helps you see how many
                 more days you need to work to
                 reach your financial goal.</h6>
@@ -195,13 +196,13 @@
 
           <div class="testimonial-1-container-row-card-item">
             <div class="testimonial-1-container-row-card-item-content">
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
               <h6>Slate helps you see how many
                 more days you need to work to
                 reach your financial goal.</h6>
@@ -217,16 +218,16 @@
 
           <div class="testimonial-1-container-row-card-item">
             <div class="testimonial-1-container-row-card-item-content">
-                <div class="star">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="far fa-star"></i>
-                </div>
-                <h6>Slate helps you see how many
-                  more days you need to work to
-                  reach your financial goal.</h6>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h6>Slate helps you see how many
+                more days you need to work to
+                reach your financial goal.</h6>
               <div class="testimonial-1-container-row-card-item-media">
                 <img src="assets/images/ecl.png" alt="">
                 <div class="testimonial-1-container-row-card-item-media-a">
@@ -295,40 +296,46 @@
 
     <section class="contact-1">
       <div class="contact-1-div">
-      <div class="contact-container">
-        <div class="contact-container-card-item">
-          <h5>Contact Us</h5>
-          <div>
-            <h2>Make an
-              Appointment</h2>
+        <div class="contact-container">
+          <div class="contact-container-card-item">
+            <h5>Contact Us</h5>
+            <div>
+              <h2>Make an
+                Appointment</h2>
+            </div>
           </div>
-        </div>
 
-        <div class="contact-container-card-content">
-          <form action="">
-            <input type="text" placeholder="FULL NAME">
-            <input type="text" placeholder="example@gmail.com">
-            <select name="" id="">
-              <option value="">Please select</option>
-            </select>
-            <select name="" id="">
-              <option value="">4:00pm Available</option>
-            </select>
-            <textarea name="" id="" cols="30" rows="10">Message</textarea>
-            <button>Book Appointment</button>
-          </form>
-        </div>
+          <div class="contact-container-card-content">
+            <form action="">
+              <div class="input">
+                <input type="text" placeholder="FULL NAME">
+                <input type="text" placeholder="example@gmail.com">
+              </div>
+              <div class="select">
+                <select name="" id="">
+                  <option value="">Please select</option>
+                </select>
+                <select name="" id="">
+                  <option value="">4:00pm Available</option>
+                </select>
+              </div>
+              <textarea name="" id="" cols="30" rows="10">Message</textarea>
+              <button>Book Appointment</button>
+            </form>
+          </div>
 
-        <div class="contact-1-div-col-md-6">
-          <div class="contact-1-div-col-md-6h">
-            <h3>Consulting Agency
-              For Your Business</h3>
-            <p>the quick fox jumps over
-              the lazy dog</p>
+          <div class="contact-1-div-col-md-6">
+            <div class="contact-1-div-col-md-6h">
+              <div>
+                <h3>Consulting Agency
+                  For Your Business</h3>
+                <p>the quick fox jumps over
+                  the lazy dog</p>
+              </div>
               <button>Contact Us</button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
   </main>
@@ -386,8 +393,8 @@
       <div class="footer-button">
         <h5>Get in touch</h5>
         <form action="">
-            <input type="text" name="emailaddress">
-            <button type="submit">subscribe</button>
+          <input type="text" name="emailaddress">
+          <button type="submit">subscribe</button>
         </form>
         <label for="">lorem ipsum color limit</label>
       </div>
