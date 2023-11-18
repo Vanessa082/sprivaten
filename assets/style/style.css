@@ -362,17 +362,6 @@ main .feature6 .div .container h2 {
   text-align: center;
 }
 
-.feature11 .container3-row p {
-  width: 90%;
-  margin: 0 auto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  padding: 0 2rem;
-}
-
 .contact-1-div-col-md-6h p {
   font-size: 14px;
   width: 80%;
@@ -383,6 +372,16 @@ main .feature6 .div .container h2 {
   text-align: left;
 }
 
+.feature11 .container3-row p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 0 2rem;
+}
 
 main .feature6 .div .container p {
   font-size: 14px;
