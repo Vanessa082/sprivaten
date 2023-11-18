@@ -260,10 +260,31 @@ main .feature6 .div .container {
   gap: 10px;
 }
 
+.feature11 .container3-row h2 {
+  width: 70%;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 main .feature6 .div .container h2 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+}
+
+.feature11 .container3-row p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding: 0 2rem;
 }
 
 main .feature6 .div .container p {
@@ -297,6 +318,12 @@ main .feature6 .div .container2 .col-md-4 .flex-row {
   padding: 10px 20px;
   align-items: center;
   gap: 9px;
+}
+
+.feature11 .container3-row2 img {
+  width: 80vw;
+  position: relative;
+  bottom: 3rem;
 }
 
 main .feature6 .div .container2 .col-md-4 .flex-row img {
@@ -380,38 +407,11 @@ main .feature6 .div .container2 .col-md-4 .card-content a {
   margin: 0 auto;
 }
 
-.feature11 .container3-row h2 {
-  width: 70%;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.feature11 .container3-row p {
-  width: 90%;
-  margin: 0 auto;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  text-align: center;
-  padding: 0 2rem;
-}
-
 .feature11 .container3-row2 {
   margin-top: 2rem;
   width: 100%;
   background-color: var(--primary-darkgreen);
   padding: 0 2rem;
-}
-
-.feature11 .container3-row2 img {
-  width: 80vw;
-  position: relative;
-  bottom: 3rem;
 }
 
 .testimoniaal-1 {
@@ -897,7 +897,7 @@ footer {
     position: unset;
     flex-direction: row;
     width: fit-content;
-    flex-wrap: nowrap;
+    flex-flow: nowrap;
     gap: 10px;
     transform: none;
     background: none;
